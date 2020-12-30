@@ -4,8 +4,23 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Search: undefined;
+  Library: undefined;
+};
+
+export type AlbumPropsList = {
+  id: number;
+  title: string;
+  cover: string;
+  numberTracks?: number;
+  contributors?: string[];
+};
+
+export type GenrePropsList = {
+  id: number;
+  name: string;
+  picture: string;
 };
 
 export type TabOneParamList = {
